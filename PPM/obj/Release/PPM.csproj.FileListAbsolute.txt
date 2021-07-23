@@ -1,0 +1,15 @@
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\bin\Release\PPM.exe.config
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\bin\Release\PPM.exe
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\bin\Release\PPM.pdb
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM.csproj.AssemblyReference.cache
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\MainWindow.g.cs
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\App.g.cs
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM_MarkupCompile.cache
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM_MarkupCompile.lref
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\MainWindow.baml
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM.g.resources
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM.Properties.Resources.resources
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM.csproj.GenerateResource.cache
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM.csproj.CoreCompileInputs.cache
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM.exe
+C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Release\PPM.pdb

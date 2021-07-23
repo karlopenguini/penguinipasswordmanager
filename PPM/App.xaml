@@ -1,0 +1,179 @@
+﻿<Application x:Class="PPM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PPM"
+             StartupUri="/Views/CredentialsWindow.xaml">
+    <Application.Resources>
+        <!-- Icons as Buttons -->
+        <Style x:Key="ExitButton" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Border Background="Transparent">
+                                <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <Image Source="/images/Exit.png" Height="24"/>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="MinimizeButton" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Border Background="Transparent">
+                                <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <Image Source="/images/Minimize.png" Height="3" Width="14"/>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="MaximizeButton" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Border Background="Transparent">
+                                <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <Image Source="/images/Maximize.png" Height="14" Width="14"/>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Buttons -->
+        <Style x:Key="Save" TargetType="{x:Type Button}">
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            
+            <Setter Property="Background" Value="#B4DC5E"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#87e038"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="Delete" TargetType="{x:Type Button}">
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            
+            <Setter Property="Background" Value="#DC7D5E"/>
+            
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#e64c3e"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="Search" TargetType="{x:Type Button}">
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            
+            <Setter Property="Background" Value="#A8917D"/>
+            <Setter Property="Foreground" Value="#403b37"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#332b28"/>
+                    <Setter Property="Foreground" Value="#A8917D"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="Opaque" TargetType="{x:Type Button}">
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="ExtraBold"/>
+            
+            <Setter Property="Opacity" Value="0.5"/>
+        </Style>
+        <!-- TextBox -->
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="Regular"/>
+            <Setter Property="FontSize" Value="9pt"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="BorderBrush" Value="#A7A490"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style TargetType="{x:Type PasswordBox}">
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="Regular"/>
+            <Setter Property="FontSize" Value="9pt"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="BorderBrush" Value="#A7A490"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style x:Key="Output" TargetType="{x:Type TextBox}">
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="Regular"/>
+            <Setter Property="FontSize" Value="9pt"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="BorderBrush" Value="#A7A490"/>
+            <Setter Property="Background" Value="Transparent"/>
+            
+            
+            <Setter Property="IsEnabled" Value="False"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+        </Style>
+        <!-- TextBlocks -->
+        <Style x:Key="ExtraLight" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="ExtraLight"/>
+            <Setter Property="FontSize" Value="9pt"/>
+            <Setter Property="Foreground" Value="#1C0D05"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="Regular" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="FontWeight" Value="Regular"/>
+            <Setter Property="FontSize" Value="11pt"/>
+            <Setter Property="Foreground" Value="#6C402D"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+
+    </Application.Resources>
+</Application>
