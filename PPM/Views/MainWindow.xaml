@@ -112,15 +112,15 @@
 
                     <StackPanel>
                         <DockPanel FlowDirection="RightToLeft" Margin="0,30,0,15">
-                            <TextBlock Style="{StaticResource Regular}" Text="name / email"/>
+                            <TextBlock Style="{StaticResource Regular}" Text="e-mail" Width="101"/>
                             <TextBox Style="{StaticResource Output}"/>
                         </DockPanel>
                         <DockPanel FlowDirection="RightToLeft" Margin="0,15,0,15">
-                            <TextBlock Style="{StaticResource Regular}" Text="username" />
+                            <TextBlock Style="{StaticResource Regular}" Text="username" Width="100" />
                             <TextBox Style="{StaticResource Output}"/>
                         </DockPanel>
                         <DockPanel FlowDirection="RightToLeft" Margin="0,15,0,15">
-                            <TextBlock Style="{StaticResource Regular}" Text="password"/>
+                            <TextBlock Style="{StaticResource Regular}" Text="password" Width="100"/>
                             <TextBox Style="{StaticResource Output}"/>
                         </DockPanel>
                         <DockPanel FlowDirection="RightToLeft" HorizontalAlignment="Right" Margin="0,5,0,15">
