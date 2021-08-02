@@ -8,10 +8,10 @@ using System.Windows.Controls;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
-using PPMUI.Models;
+using PPM.Models;
 using System.Xml.Linq;
 
-namespace PPMUI.Models
+namespace PPM.Models
 {
     public class SQLiteDataAccess
     {

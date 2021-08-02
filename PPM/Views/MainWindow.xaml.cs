@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Input;
-using PPMUI.Controller;
+using PPM.Controls;
 
-namespace PPM
+namespace PPM.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

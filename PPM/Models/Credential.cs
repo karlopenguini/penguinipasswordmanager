@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PPMUI.Controller;
+using PPM.Controls;
 using System.ComponentModel;
 
-namespace PPMUI.Models
+namespace PPM.Models
 {
     public class Credential : INotifyPropertyChanged
     {

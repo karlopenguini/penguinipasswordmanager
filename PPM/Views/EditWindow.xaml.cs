@@ -11,9 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using PPMUI.Controller;
+using PPM.Controls;
 
-namespace PPM
+namespace PPM.Views
 {
     /// <summary>
     /// Interaction logic for Window1.xaml
@@ -40,7 +40,7 @@ namespace PPM
             Controls.LoadNames(cmbListNames);
         }
 
-        private void cmbListNames_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void CmbListNames_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (cmbListNames.SelectedItem != null)
             {

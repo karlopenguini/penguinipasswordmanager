@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PPMUI.Models;
+using PPM.Models;
 using System.Windows.Controls;
 
-namespace PPMUI.Controller
+namespace PPM.Controls
 {
     public class Controller
     {
