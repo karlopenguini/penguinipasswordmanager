@@ -1,17 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using PPMUI.Controller;
 
 namespace PPM
 {
@@ -20,12 +10,78 @@ namespace PPM
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// Controller
+        public Controller Controls = new Controller();
+        public CredentialsWindow AllCredentials;
+        public EditWindow EditCredentials;
         /// Initialize Window
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
+        private void RemoveEntries()
+        {
+            NameInput.Text = string.Empty;
+            EmailInput.Text = string.Empty;
+            UserNameInput.Text = string.Empty;
+            PasswordInput.Password = string.Empty;
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            string name = NameInput.Text;
+            string email = EmailInput.Text;
+            string username = UserNameInput.Text;
+            string password = PasswordInput.Password;
+
+            if (name == "")
+            {
+                return;
+            }
+            else
+            {
+                Controls.AddNewCredentialsToDatabase(name, email, username, password);
+                RemoveEntries();
+            }
+
+            if (AllCredentials != null)
+            {
+                AllCredentials.RefreshCredentialsTable();
+            }
+
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string name = SearchInput.Text;
+            if (name == "")
+            {
+                return;
+            }
+            else
+            {
+                Controls.ShowCredentials(name, EmailOutput, UsernameOutput, PasswordOutput);
+            }
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            Controls.DeleteCredentialsInDatabase(NameInput, EmailInput, UserNameInput, PasswordInput);
+            if (AllCredentials != null)
+            {
+                AllCredentials.RefreshCredentialsTable();
+            }
+            RemoveEntries();
+        }
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            EditCredentials = new EditWindow();
+            EditCredentials.Closed += (_, __) => this.EditCredentials = null;
+            EditCredentials.Show();
+        }
 
         /// Window Manipulation
         private void ExitButton_Click(object sender, RoutedEventArgs e)
@@ -34,7 +90,7 @@ namespace PPM
         }
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
         {
-            this.WindowState = WindowState.Minimized;  
+            this.WindowState = WindowState.Minimized;
         }
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -43,11 +99,12 @@ namespace PPM
                 this.DragMove();
             }
         }
-
         private void ViewAllButton_Click(object sender, RoutedEventArgs e)
-        {
-            CredentialsWindow credentialwindow = new CredentialsWindow();
-            credentialwindow.Show();
+        { ///this.m_myWindow.Closed += (sender, args) => this.m_myWindow = null; 
+            AllCredentials = new CredentialsWindow();
+            AllCredentials.Closed += (_, __) => this.AllCredentials = null;
+            AllCredentials.Show();
         }
+
     }
 }

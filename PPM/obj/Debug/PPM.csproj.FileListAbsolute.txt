@@ -34,3 +34,5 @@ C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debu
 C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.CoreCompileInputs.cache
 C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.exe
 C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.pdb
+C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\bin\Debug\CredentialsDB.db
+C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_Content.g.cs

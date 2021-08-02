@@ -11,40 +11,48 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using PPMUI.Controller;
 
 namespace PPM
 {
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
+    /// 
+
     public partial class CredentialsWindow : Window
     {
+        public Controller Controls = new Controller();
+
         public CredentialsWindow()
         {
             InitializeComponent();
+            Controls.ShowAllCredentials(CredentialsTable);
 
-            CredentialsTable.Items.Add(new Credentials
-            {
-                Name = "Google",
-                Email = "karlobpalisoc@gmail.com",
-                Password = "011120asdasd"
-            });
         }
 
-        
-        public class Credentials
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
-            public Credentials()
+            Close();
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
             {
-                Name = "No Data";
-                Email = "No Data";
-                Username = "No Data";
-                Password = "No Data";
+                this.DragMove();
             }
-            public string Name { get; set; }
-            public string Email { get; set; }
-            public string Username { get; set; }
-            public string Password { get; set; }
+        }
+
+        private void MinimizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        public void RefreshCredentialsTable()
+        {
+            CredentialsTable.Items.Clear();
+            Controls.ShowAllCredentials(CredentialsTable);
         }
     }
 }
