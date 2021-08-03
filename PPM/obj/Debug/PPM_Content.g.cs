@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("soundfx/delete.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("soundfx/save.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("credentialsdb.db")]
 
 

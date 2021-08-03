@@ -76,7 +76,7 @@ namespace PPM.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PPMUI;component/views/credentialswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PPM;component/views/credentialswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Views\CredentialsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

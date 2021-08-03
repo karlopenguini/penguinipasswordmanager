@@ -1,45 +1,7 @@
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.exe.config
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.exe
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.pdb
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.AssemblyReference.cache
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\App.g.cs
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_MarkupCompile.cache
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_MarkupCompile.lref
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.g.resources
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.Properties.Resources.resources
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.GenerateResource.cache
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.CoreCompileInputs.cache
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.exe
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.pdb
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\App.baml
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\Views\MainWindow.g.cs
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\Views\MainWindow.baml
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\Views\CredentialsWindow.g.cs
-C:\Users\karlo\Desktop\Penguini Password Manager\PPM\PPM\obj\Debug\Views\CredentialsWindow.baml
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.exe.config
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.exe
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.pdb
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.AssemblyReference.cache
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\Views\MainWindow.g.cs
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\Views\CredentialsWindow.g.cs
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\App.g.cs
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_MarkupCompile.cache
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_MarkupCompile.lref
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\App.baml
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\Views\MainWindow.baml
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\Views\CredentialsWindow.baml
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.g.resources
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.Properties.Resources.resources
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.GenerateResource.cache
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.CoreCompileInputs.cache
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.exe
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.pdb
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\bin\Debug\CredentialsDB.db
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_Content.g.cs
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\CredentialsDB.db
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\PPMUI.exe.config
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\PPMUI.exe
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\PPMUI.pdb
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.exe.config
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.exe
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\PPM.pdb
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\Dapper.dll
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\Microsoft.Xaml.Behaviors.dll
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\SQLitePCLRaw.core.dll
@@ -57,21 +19,21 @@ C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\S
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.AssemblyReference.cache
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\MainWindow.baml
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\CredentialsWindow.baml
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\EditWindow.baml
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\App.baml
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\MainWindow.g.cs
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\CredentialsWindow.g.cs
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\EditWindow.g.cs
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\App.g.cs
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPMUI_Content.g.cs
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPMUI_MarkupCompile.cache
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPMUI_MarkupCompile.lref
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPMUI.g.resources
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPMUI.Properties.Resources.resources
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_Content.g.cs
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_MarkupCompile.cache
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM_MarkupCompile.lref
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\App.baml
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\MainWindow.baml
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\CredentialsWindow.baml
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\Views\EditWindow.baml
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.g.resources
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.Properties.Resources.resources
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.GenerateResource.cache
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.CoreCompileInputs.cache
 C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.csproj.CopyComplete
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPMUI.exe
-C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPMUI.pdb
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.exe
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\PPM.pdb

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\obj\Debug\
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\obj\Debug\
 PPM
 none
 false
 DEBUG;TRACE
-C:\Users\karlo\Documents\WillTransfer\Penguini Password Manager\PPM\PPM\App.xaml
-2-500850810
-1-1381647608
-7-269749177
-13-1505183044
-Views\MainWindow.xaml;Views\CredentialsWindow.xaml;
+C:\Users\Charles Secarro\Documents\Penguini Password Manager\PPM\PPM\App.xaml
+3-1761153080
+32068182579
+101390837213
+1281428652975
+Views\MainWindow.xaml;Views\CredentialsWindow.xaml;Views\EditWindow.xaml;
 
-True
+False
 
