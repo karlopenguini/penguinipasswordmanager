@@ -8,7 +8,7 @@ using System.ComponentModel;
 
 namespace PPM.Models
 {
-    public class Credential : INotifyPropertyChanged
+    public class Credential
     {
         private string _name;
         private string _email;
@@ -30,7 +30,7 @@ namespace PPM.Models
             set
             {
                 _name = value;
-                OnPropertyChanged("Name");
+                
             }
         }
 
@@ -43,7 +43,7 @@ namespace PPM.Models
             set
             {
                 _email = value;
-                OnPropertyChanged("Email");
+               
             }
         }
         public string Username
@@ -55,7 +55,7 @@ namespace PPM.Models
             set
             {
                 _username = value;
-                OnPropertyChanged("Username");
+                
             }
         }
         public string Password
@@ -67,16 +67,7 @@ namespace PPM.Models
             set
             {
                 _password = value;
-                OnPropertyChanged("Password");
-            }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        private void OnPropertyChanged(string propertyName)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+               
             }
         }
     }

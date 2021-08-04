@@ -9,6 +9,7 @@ namespace PPM.Views
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    
     public partial class MainWindow : Window
     {
         /// Controller
@@ -80,15 +81,18 @@ namespace PPM.Views
         }
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
-            EditCredentials = new EditWindow();
-            EditCredentials.Closed += (_, __) => this.EditCredentials = null;
-            EditCredentials.Show();
+            if (EditCredentials == null)
+            {
+                EditCredentials = new EditWindow();
+                EditCredentials.Closed += (_, __) => this.EditCredentials = null;
+                EditCredentials.Show();
+            }
         }
 
         /// Window Manipulation
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
         {
@@ -103,9 +107,12 @@ namespace PPM.Views
         }
         private void ViewAllButton_Click(object sender, RoutedEventArgs e)
         { ///this.m_myWindow.Closed += (sender, args) => this.m_myWindow = null; 
-            AllCredentials = new CredentialsWindow();
-            AllCredentials.Closed += (_, __) => this.AllCredentials = null;
-            AllCredentials.Show();
+            if (AllCredentials == null)
+            {
+                AllCredentials = new CredentialsWindow();
+                AllCredentials.Closed += (_, __) => this.AllCredentials = null;
+                AllCredentials.Show();
+            }
         }
 
     }

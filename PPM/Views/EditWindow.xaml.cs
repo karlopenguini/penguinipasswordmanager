@@ -52,6 +52,8 @@ namespace PPM.Views
         private void SaveChangesButton_Click(object sender, RoutedEventArgs e)
         {
             Controls.SaveChanges(EditNameInput, EditEmailInput, EditUsernameInput, EditPasswordInput, cmbListNames, SaveChangesButton);
+            
+
         }
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)
